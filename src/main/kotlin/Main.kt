@@ -13,7 +13,7 @@ fun calculateCommission(previousPayments: Int, sum: Int, cardType: CardType = Ca
     val limitOnDayVK = 15_000_00
     val limitOnMonthVK = 40_000_00
 
-    val minSolidCommission = 30_00
+    val minSolidCommission = 35_00
     val percentageCommission = 0.0075
     val promoSolidCommission = 20_00
     val promoPercentageCommission = 0.006
